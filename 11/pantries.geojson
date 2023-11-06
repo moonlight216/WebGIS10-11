@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "osm_id": "2632761181", "name": "SHARE Food Program", "barrier": null, "highway": null, "ref": null, "address": null, "is_in": null, "place": null, "man_made": null, "other_tags": "\"website\"=>\"http:\/\/sharefoodprogram.org\/\",\"addr:housenumber\"=>\"2901\",\"amenity\"=>\"social_facility\",\"addr:postcode\"=>\"19129\",\"addr:full\"=>\"2901 West Hunting Park Avenue, Philadelphia, PA 19129\",\"social_facility\"=>\"food_bank\",\"addr:city\"=>\"Philadelphia\",\"addr:street\"=>\"West Hunting Park Avenue\"" }, "geometry": { "type": "Point", "coordinates": [ -75.1762319, 40.0065387 ] } },
+{ "type": "Feature", "properties": { "osm_id": "2632777122", "name": "Philabundance", "barrier": null, "highway": null, "ref": null, "address": null, "is_in": null, "place": null, "man_made": null, "other_tags": "\"website\"=>\"http:\/\/www.philabundance.org\",\"addr:housenumber\"=>\"302\",\"amenity\"=>\"social_facility\",\"addr:postcode\"=>\"19122\",\"addr:full\"=>\"302 West Berks Street, Philadelphia, PA 19122\",\"social_facility\"=>\"food_bank\",\"addr:city\"=>\"Philadelphia\",\"addr:street\"=>\"West Berks Street\"" }, "geometry": { "type": "Point", "coordinates": [ -75.140668, 39.9788626 ] } }
+]
+}
