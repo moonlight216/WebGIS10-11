@@ -20,7 +20,7 @@ tileLayer = new ol.layer.Tile(
             {
                 attributions: "Data copyright OpenStreetMap contributors",
                 zoom: 18,
-                url: 'http://localhost/Philadelphia/tile/{z}/{x}/{y}.png',
+                url: 'http://localhost/Philadelphia/tile/{z}/{x}/{y}.png'
             }
         )
     }
@@ -57,13 +57,13 @@ map.on('click', e => {
         e.coordinate, map.getView().getResolution(), toProjection,
         { 'INFO_FORMAT': 'application/json' }
     );
-
     fetch(url)
         .then(response => {
             return response.json();
         })
         .then(json => {
             var features = json.features;
+            console.log(json)
             if (features != null) {
                 if (features.length !== 0) {
                     //点击在WMS图层的点上时
